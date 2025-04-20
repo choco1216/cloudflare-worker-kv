@@ -1,4 +1,4 @@
-// 2025-04-20完全新規テスト - hello worldではなく明確に違う応答を返すコード
+// 2025-04-20 完全新規テスト
 export default {
   fetch() {
     return new Response("これは新しいテストです - Hello worldではありません", {
