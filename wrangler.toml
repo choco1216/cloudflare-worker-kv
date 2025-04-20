@@ -4,6 +4,10 @@ account_id = "dac48892f86182ed8d5733909d76ec455"
 workers_dev = true
 compatibility_date = "2024-04-20"
 
+kv_namespaces = [
+  { binding = "ai-chat-config", id = "25324acc63c346e490ca65882bdbc9bc" }
+]
+
 [env.production]
 kv_namespaces = [
   { binding = "ai-chat-config", id = "25324acc63c346e490ca65882bdbc9bc" }
