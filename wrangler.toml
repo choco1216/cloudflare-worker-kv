@@ -12,3 +12,6 @@ kv_namespaces = [
 kv_namespaces = [
   { binding = "ai-chat-config", id = "25324acc63c346e490ca65882bdbc9bc" }
 ]
+
+[observability.logs]
+enabled = true
